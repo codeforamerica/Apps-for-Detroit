@@ -83,18 +83,15 @@ ul{
 	width:100%;
 	height:347px;
 	position:relative;
-	bbackground:url(../images/banner_bg2.jpg) repeat-x;	
 }
 
 #banner_bg{
 	width:100%;
 	height:347px;
-	position:relative;	
-	bbackground:url(../images/banner_bg2.png) center no-repeat;
-	background:#10293F;
-	
+	position:relative;		
 	background:rgb(215,064,008);
-	
+	bbackground:#10293F;
+	background:url(../images/banner_bg2.png) center no-repeat;
 }
 
 #banner_txt{
