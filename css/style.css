@@ -83,14 +83,18 @@ ul{
 	width:100%;
 	height:347px;
 	position:relative;
-	background:url(../images/banner_bg2.jpg) repeat-x;	
+	bbackground:url(../images/banner_bg2.jpg) repeat-x;	
 }
 
 #banner_bg{
 	width:100%;
 	height:347px;
 	position:relative;	
-	background:url(../images/banner_bg2.png) center no-repeat;
+	bbackground:url(../images/banner_bg2.png) center no-repeat;
+	background:#10293F;
+	
+	background:rgb(215,064,008);
+	
 }
 
 #banner_txt{
@@ -822,7 +826,7 @@ img.advisoricons{
   padding: 3px;
   width: 280px;
   overflow: hidden;
-  background: #4299CE;
+  bbackground: #4299CE;
   background: rgba(66, 153, 206, 1);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
