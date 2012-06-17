@@ -76,6 +76,7 @@ ul{
 	width:870px;
 	height:141px;
 	margin:0px auto;
+	padding-top: 30px;
 	text-align:center;	
 }
 
@@ -91,7 +92,8 @@ ul{
 	position:relative;		
 	background:rgb (215,064,008);
 	bbackground:#10293F;
-	background:red url(../images/banner_bg2.png) center no-repeat;
+	url(../images/background-banner.png) center no-repeat;
+	background: #628CB1;
 }
 
 #banner_txt{
@@ -107,7 +109,7 @@ ul{
 	line-height:75px;
 	color:#fff;
 	font-family: 'Alfa Slab One', cursive;
-	text-shadow:8px 7px 8px #97172e;
+	text-shadow:8px 7px 8px black;
 	-moz-text-shadow:8px 7px 8px #97172e;
 	-webkit-text-shadow:8px 7px 8px #97172e;
 }
@@ -305,7 +307,7 @@ ul{
 
 .left_art{
 	float:left;
-	width:470px;
+	width:850px;
 	font-weight:normal;
 	color:#5d5d5c;	
 }
