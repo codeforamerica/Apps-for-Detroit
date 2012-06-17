@@ -92,8 +92,7 @@ ul{
 	position:relative;		
 	background:rgb (215,064,008);
 	bbackground:#10293F;
-	url(../images/background-banner.png) center no-repeat;
-	background: #628CB1;
+	background: #628CB1; url (../images/banner-image.png) center no-repeat;
 }
 
 #banner_txt{
