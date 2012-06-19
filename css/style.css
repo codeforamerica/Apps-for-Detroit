@@ -463,7 +463,8 @@ img.advisoricons{
 
 .team_li_cont{
 	float:left;
-	width:283px;
+	/*width:283px;*/
+	width:425px;
 	height:auto;
 	text-align:center;
 }
@@ -542,6 +543,10 @@ img.advisoricons{
 .span4 {
   width: 250px;
   text-align: center;
+}
+
+.span6 {
+  width: 44%;
 }
 
 [class*="span"] {
