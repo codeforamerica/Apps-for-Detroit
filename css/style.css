@@ -86,13 +86,18 @@ ul{
 	position:relative;
 }
 
+#invitation-image {
+    position:center;
+    padding-top: 100px;
+}
+
 #banner_bg{
 	width:100%;
 	height:347px;
-	position:relative;		
-	background:rgb (215,064,008);
-	bbackground:#10293F;
-	background: #628CB1; url (../images/banner-image.png) center no-repeat;
+	position:relative;
+	background:#3399CC;
+    background-image:url('../images/banner-image.png');
+
 }
 
 #banner_txt{
