@@ -96,7 +96,8 @@ ul{
 	height:347px;
 	position:relative;
 	background:#3399CC;
-	background-image: url(../images/banner-image.png) center no-repeat;
+    background-image:url('../images/banner-image.png');
+
 }
 
 #banner_txt{
