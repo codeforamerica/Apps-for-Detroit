@@ -507,11 +507,10 @@ img.advisoricons{
 }
 
 #footer_cont{
-	float:left;
-	width:100%;
 	height:50px;
 	background:#c91f3d;
 	text-align: center;
+	clear:both;
 }
 
 #footer_cont p{
