@@ -1368,3 +1368,16 @@ line-height: 66px;
 #information {
 	overflow: hidden;
 }
+
+.devtroit {
+  text-align:center;
+  padding-top:2em
+}
+
+.cfabadge {
+  padding-top:20px;
+}
+
+.row {
+  height:auto;
+}
