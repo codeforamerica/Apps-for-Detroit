@@ -21,11 +21,7 @@ $(document).ready(function() {
 		hash : true
 	});
 
-  // Button clicks
-  $('#learn-more').click(function (e) {
-    e.preventDefault();
-    window.location = 'http://appsfordetroit.eventbrite.com/';
-  });
+  
 
 
 });;

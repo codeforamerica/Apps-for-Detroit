@@ -26,6 +26,15 @@
               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
         </script>
+        <style type="text/css" media="screen">
+            .prize {
+                width:500px;
+                margin:0px auto;
+            }                                                                                      
+            .firstp { background:transparent url('images/1st.png') no-repeat center top; padding-top:270px; }
+            .secondp { background:transparent url('images/2nd.png') no-repeat center top; padding-top:270px; }
+            .thirdp { background:transparent url('images/3rd.png') no-repeat center top; padding-top:270px; }
+        </style>
     </head>
     <body data-spy="scroll" data-target=".subnav" data-offset="100">
         <!-- Masthead
@@ -33,7 +42,7 @@
         <div id="header">
             <div id="header_logo_cont">
                 <a href="index.html">
-                    <img src="images/challengelogo.png"alt="Code for America"/>
+                    <img src="images/challengelogo.png" alt="Code for America"/>
                 </a>
             </div>
         </div>
@@ -46,8 +55,10 @@
                         <!--A civic apps challenge June 28th - July 15th-->
                     </span>
                     <br />
-                    <div class="Apply">
-                        <button id="learn-more" class="button" >Learn More</button>
+                    <div class="apply">
+                        <a id="learn-more" class="button" href="challenges.html">See the challenges</a>
+                        <a id="learn-more" class="button" href="http://appsfordetroit.tumblr.com">Build a team</a>
+                        <a id="learn-more" class="button" href="apply.html">Submit your app</a>
                     </div>
                 </div>
         </div>
@@ -57,8 +68,9 @@
                     <ul class="nav nav-pills">
                         <li><a href="#opportunity">The Challenge</a></li>
                         <li><a href="#prizes">Prizes</a></li>
-                        <li><a href="#team">Inspiration &amp; Teams</a></li>
                         <li><a href="#rules">Rules</a></li>
+                        <li><a href="#judges">Judges</a></li>
+                        <li><a href="#data">Data</a></li>
                         <li><a href="#faq">Logistics</a></li>
                     </ul>
                 </div>
@@ -74,15 +86,14 @@
                                 <p>
                                     <img src="images/appchallenge-timeline-01.png" width="100%" />
                                     <strong>
-                                    <ul style="list-style: circle; padding-left: 30px;">
-                                    <li> Come to the <a href="http://appsfordetroit.eventbrite.com">kick-off event on June 28th</a> to learn more and meet a community of web-friendly Detroiters</li>
-                                    <li> Form a team or work as an individual</li>
-                                    <li> Familiarize yourself with posted challenges</li>
-                                    <li> Build an app over two weeks to address these issues or any issue you feel is important in Detroit.</li>
-                                    <li> Submit by midnight on July 15th!</li>
-                                    <li> Winners will be announced August 1st.</li>
-                                    <li> Take home AWESOME prizes!</li>
-                                    </ul>
+                                        <ul style="list-style: circle; padding-left: 30px;">
+                                            <li> Form a team or work as an individual</li>
+                                            <li> Familiarize yourself with posted challenges</li>
+                                            <li> Build an app over two weeks to address these issues &mdash; or any issue you feel is important in Detroit.</li>
+                                            <li> Submit by midnight on July 15th!</li>
+                                            <li> Winners will be announced August 1st.</li>
+                                            <li> Take home AWESOME prizes!</li>
+                                        </ul>
                                     </strong>
                                  </p>
                                 
@@ -99,10 +110,42 @@
                     </div>
                     <div class="main_cont" id="prizes">
                         <div class="program_cont row">
-                            <h3 class="ribbon">Prizes</h3>
-                            <h2>Exciting prizes to be announced soon. Code for America will grant a 1st, 2nd and 3rd prize winner! Stay tuned...</h2>
+                            <h3 class="ribbon">Prizes</h3>    
+                            <div class="prize firstp">                    
+                                    <h2>Trip to San Francisco</h2>
+                                    <p>
+                                        Win a trip to SF for 
+                                        an opportunity to brainstorm with tech 
+                                        industry leaders and work out of Code for 
+                                        America’s office: centrally located in 
+                                        downtown SF steps from Twitter’s HQ with neighbors 
+                                        like ZenCoder, Fontshop, Dolphin and storify (to name a few). R
+                                        epresent Detroit talent in SF, and learn from the best: 
+                                        ex-pat Michiganders who have made it in the Valley!
+                                    </p>
+                            </div>
+                            <div class="prize secondp">
+                                    <h2>Leadership lunch in Detroit</h2>
+                                    <p>
+                                        Win a lunch with Detroit’s business and technology 
+                                        leaders at a top-notch restaurant, and an opportunity 
+                                        to gain real-world business advice, brainstorming 
+                                        and a chance to pitch your app to investors!
+                                    
+                                    </p>
+                           </div>
+                           <div class="prize thirdp">
+                                    <h2>Web-shop Goodie Basket</h2>
+                                    <p>
+                                        Credits &amp; tools to sustain your app and build new ones:
+                                    </p>
+                                    <ul>
+                                        <li>SMS-service credits to power your app                   </li>
+                                        <li>Licenses to professional web/mobile fonts from FontShop </li>
+                                        <li>Great gear from WDET                                    </li>
+                                    </ul>
+                            </div>
                             <div id="finish_line_cont"></div>
-                        
                            <!-- <div class="span4">
                                   <img src="images/startUp.png" />
                                   <p>Resources to turn a winning entry into a polished product &#8212; the contest is just the beginning.</p>
@@ -127,21 +170,17 @@
                         </div>
                     </div>
                     <div class="proof_cont" id="team">
-                        <h3 class="ribbon">Inspiration</h3>
+                        <h3 class="ribbon">Form a team</h3>
                     </div>
-                    <div class="main_cont">
-                        <h1>Share a Challenge</h1>
-                        <div class="top_art_cont">
-                          <p><strong>Do you represent a group interested in submitting a challenge?</strong> <a href="mailto:detroit@codeforamerica.org">E-mail us</a> a challenge proposal.</p>
-                          <p>Representatives from <a href="http://http://www.detroitmi.gov/MayorsOffice/tabid/123/Default.aspx">City Hall</a>, along with <a href="http://wdetfm.org/"> WDET</a>, <a href="http://www.knightfoundation.org/"> Knight Foundation</a>, <a href="http://www.clronline.org/"> Michigan Community Resources </a>, <a href="http://cdad-online.org">CDAD</a>, <a href="http://datadrivendetroit.org">Data Driven Detroit</a>, and <a href="http://detroitworksproject.com">Detroit Works</a> will have an opportunity to share "challenges" or problems to solve with digital apps. Over two weeks, web professionals are invited applications to solve these challenges judged by creativity, impact and civic focus.</p>
-                            <p>On June 28th, we'll announce these powerful challenges for you to tackle. We'll also connect the technologists with civic thinkers to help spark ideas.</p>
-                        </div>
-                        
-                        <h1><a href="http://appsfordetroit.tumblr.com">Form a team</a></h1>
+                    <div class="main_cont">                        
                         <div class="top_art_cont">
                         
                         <p>Looking to find team members? Looking for the winning group to join?
                             <a href="http://appsfordetroit.tumblr.com">Post and browse app ideas here</a>.
+                        </p>
+                        
+                        <p><strong>I'm not a programmer, can I be involved?</strong>
+                        Yes! Apps need support from all kinds of minds and skill-sets including design, content strategy, marketing, business development and research on the issue you're trying to tackle. Although its important to have a developer on your team to create the app itself, an interdisciplinary team can create a truly strong product that is pretty, functional and meaningful!
                         </p>
                         </div>
                         
@@ -173,7 +212,7 @@
                                 <p>4. You don't need to be in Detroit to submit an app. 
                                     Some of our prizes may involve travel &mdash; if you aren't in Detroit and travel costs are prohibitive, we'll find an awesome alternative prize for your team.</p>
                                 <p>
-                                <p>Submit your entry to us by 11:59 PM (midnight) Eastern Time on <strong>July 15, 2012</strong>.
+                                <p id="judges">Submit your entry to us by 11:59 PM (midnight) Eastern Time on <strong>July 15, 2012</strong>.
                                     The submission page will be available when the contest begins. 
                                 </p>
                             </div>
@@ -209,8 +248,34 @@
                                 </ul>
                             </div>
                             <div id="finish_line_cont"></div>
+                        </div>
+                        <div class="main_cont faq_h" id="data">
+                            <div class="proof_cont">
+                                <h3 class="ribbon">Data</h3>
+                            </div>
+                            <div class="top_art_cont">
+                                <p>We're happy to share and link to several datasets to power your app, and 
+                                    you're free to use any other data you'd like. 
+                                </p>
+                                <ul>
+                                    <li>The <a href="http://www.detroitdatacollaborative.org/">Detroit Data Collaborative</a> aggregates data
+                                        from the area. 
+                                    </li>
+                                    <li>The City of Detroit has released the following 
+                                        datasets:
+                                        <ul>
+                                            <li>Michigan school data is
+                                                <a href="http://www.michigan.gov/cepi/0,4546,7-113-21423---,00.html">available from the Center for Educational Performance and Information (CEPI)</a></li>
+                                            <li>SEMCOG, the <a href="http://www.semcog.org/DataMapsIndex.aspx?id=210">Southeastern Michigan Council of Governments</a>, has a library of data available.</li>
+                                            <li>The US Census has a <a href="http://www.census.gov/developers/">new data API</a></li>
+                                            <li>There are <a href="http://metro.teczno.com/#detroit">Open Street Map extracts</a> for the Detroit area.</li>
+                                        </ul>
+                                    </li>
+                            </div>
+                            <div id="finish_line_cont"></div>
                             
                         </div>
+                        
                         <div class="main_cont faq_h" id="faq">
                             <h1>Logistics</h1>
                             <div class="top_art_cont">
