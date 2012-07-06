@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Apply Now: The CfA Accelerator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Code for America is launching a new civic startup accelerator.">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style type="text/css" media="screen">
+        #banner_bg{
+            height:130px;
+        }
+
+        #banner_txt {
+            height:auto;
+        }
+        h2 {
+            margin-top:5px;
+        }
+        h1 {
+            margin-bottom:0
+        }
+        h2#link {
+            text-align:center;
+            font-size:1.5em;
+        }
+        h2#link a {
+            border-bottom:1px dotted #4299CE;
+        }
+
+        .challenge {
+            border:1px solid #ddd;
+            padding:20px;
+            border-radius:10px;
+            margin-bottom:20px;
+            text-align:left;
+          background:#fff;
+          box-shadow:inset 0 0 10px #ccc;
+          border:1px solid #ddd;
+        }
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+		
+		<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+
+
+
+  </head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="">
+
+      <!-- Masthead
+      ================================================== -->
+        <div id="header">
+          <div id="header_logo_cont">
+              <a href="index.html">
+                  <img src="images/challengelogo.png"alt="Code for America"/>
+              </a>
+          </div>
+      </div>
+      
+      <div id="banner_bg">
+              <div id="banner_txt">
+                  <span class="top_cufon">APPS FOR DETROIT</span> 
+              </div>
+      </div>
+      
+      			<div id="application">
+			  <div id="main_nav_cont" class="subnav2">
+					<div id="nav_cont">
+          <ul class="nav nav-pills">
+			      <li></li>
+						<span><a class="back close" href="index.html" style-"float: right">< Go Back Home </a></span>
+          </ul>
+					</div>
+        </div>
+			<div id="wrapper">
+			  <div id="main_container" class="app">		
+			      <h1>Real Time Bus Information</h1>
+                  <div class="top_art_cont" >
+                    <p>Fellow Apps for Detroit participants,</p>
+
+                    <p>We're very happy to announce beta access to awesome new City data: real-time bus arrival times.
+                      </p>
+                      
+                    <p>Code for America has been working with the Mayor's office and the Detroit Department of Transportation (DDOT) on public, real-time bus data. When we launch that system later this year, we will also provide an API, so that independent developers can access the same data and build other useful applications.
+                      </p>
+                      
+                    <p>
+                      The beta of that API is available to you for testing and app development today. 
+                      </p>
+                      
+                    <h2>Getting started</h2>
+                    <p>
+                      We use the open-source OneBusAway platform to provide the API. <a href="http://developer.onebusaway.org/modules/onebusaway-application-modules/current/api/where/index.html">Check out the API documentation to get started</a>.
+                    
+                    </p>
+                    
+                    <p>Our pre-launch base url is:<br>
+                    <code><a href="http://ddot-beta.herokuapp.com/api/api/">http://ddot-beta.herokuapp.com/api/api/</a></code>
+                    </p>
+                    
+                    <p>For example, to find the agency IDs, you would hit:<br>
+                    <code><a href="http://ddot-beta.herokuapp.com/api/api/where/agencies-with-coverage.json?key=BETA">http://ddot-beta.herokuapp.com/api/api/where/agencies-with-coverage.json?key=BETA</a></code>
+                    </p>
+
+                    <h2>What does beta mean?</h2>
+                    <ul>
+                      <li style="margin-bottom:10px;">+ We're still building this system, so expect that data will be incorrect or unavailable at times. The structure of the API should remain fairly consistent, even as we improve the data. </li>
+                      <li style="margin-bottom:10px;">+ <em>Because the data is not production-ready, you can't launch your app until the API launches later this year.</em> You can test out your app, and obviously you should enter it in the contest. But the API url will change when we launch, so you can't release your app until the official launch of the DDOT bus arrival-time system. Riders should not rely on this information before the launch.</li> 
+                      <li style="margin-bottom:10px;">+ We wanted to give you a head start, so you'll be able to hit the ground running when the API is public -- and you can benefit from all of the buzz.</li>
+                    </ul>
+                    
+                    <h2>Aren't you building something with this API already?</h2>
+                    We're building an text message-based system for riders. We would love for enterprising technologists to work on native mobile apps, integrated services, or anything else that we haven't even thought of. That's the beauty of APIs!
+                    </p>
+                    
+                    <h2>Find something broken?</h2>
+                    <p>If you notice something that's not right, please send us an e-mail: detroit@codeforamerica.org.
+                        </p>
+
+                  </div>
+                
+                  
+			      </div>
+			      
+		      </div>
+		    </div>
+		</div>
+
+     <!-- Footer
+      ================================================== -->
+      <footer class="footer">
+  <div id="footer_cont">
+	<img src="images/flag_tag.png"/><img
+	</div>    
+      </footer>
+
+    </div><!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	  <script src="js/bootstrap-transition.js"></script>
+	  <script src="js/bootstrap-modal.js"></script>
+	  <script src="js/bootstrap-scrollspy.js"></script>
+	  <script src="js/application.js"></script>
+	  <script src="js/bootstrap-tooltip.js"></script>
+	  <script src="js/bootstrap-popover.js"></script>
+	  <script src="js/bootstrap-carousel.js"></script>
+	  <script src="js/jquery.masonry.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.2.js"></script>
+		<script type="text/javascript" src="js/scrollTo-min.js"></script>
+		<script type='text/javascript' src='js/jquery.scrollTo-1.4.2-min.js'></script>
+		<script type='text/javascript' src='js/jquery.localscroll-1.2.7-min.js'></script>
+
+		<script type="text/javascript">
+
+
+		$("#application").scrollTop();
+		
+		$(document).ready(function(){
+			$("#application").scrollTop(300);
+		});
+		</script>
+		<script type="text/javascript">
+		    
+	    $(function(){
+          $('#challenges').masonry({
+            // options
+            itemSelector : '.span4',
+          });
+        });
+        
+
+    	 $(document).ready(function(){
+
+    	 });
+
+		</script>
+
+  </body>
+</html>
